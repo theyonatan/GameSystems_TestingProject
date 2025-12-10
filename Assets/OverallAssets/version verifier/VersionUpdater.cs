@@ -6,7 +6,7 @@ public static class VersionUpdater
 {
     static VersionUpdater()
     {
-        string path = "Assets/Resources/RuinsVersion.asset";
+        string path = "Assets/OverallAssets/version verifier/RuinsVersion.asset";
         var versionAsset = AssetDatabase.LoadAssetAtPath<VersionTracker>(path);
 
         if (versionAsset == null)
